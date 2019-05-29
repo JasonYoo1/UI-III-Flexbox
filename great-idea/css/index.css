@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 } */
 
 .navigation{
-	/* width: auto; */
+	width: auto;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -82,7 +82,7 @@ nav a{
 
 .logo {
 	float: right;
-	/* margin-top: -10px; */
+	margin-top: -10px;
 	margin-right: 100px;
 }
 
@@ -120,7 +120,7 @@ nav{
 }
 .leftSide {
 	width: 40%;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	float: left;
 	flex: center;
 	justify-content: stretch;
@@ -150,14 +150,15 @@ h1 {
 	margin: 30px auto 30px auto;
     width: 100%;
     text-align: left;
-    display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .leftSideMid {
     width: 40%;
     float: left;
     margin-right: 10px;
-    margin-left: 8%;
+	margin-left: 8%;
 }
 
 .rightSideMid{
@@ -196,4 +197,173 @@ h1 {
     margin-left: 10px;
     margin-right: 8%;
     height: auto;
+}
+
+
+
+
+
+
+/* CSS FOR SERVICES.HTML */
+/* CSS FOR SERVICES.HTML */
+/* CSS FOR SERVICES.HTML */
+/* CSS FOR SERVICES.HTML */
+
+
+
+
+
+
+
+.topPortion{
+	/* border: 1px solid blue; */
+	padding: 20px 0px ;
+}
+
+.topImg{
+	height: 100%;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 20px;
+}
+
+.topArticle{
+	float: left;
+	padding-top: 50px;
+}
+
+.containerOne{
+	width: 1000px;
+	margin: auto;
+}
+
+h2{
+	font-size: 200%;
+}
+
+
+.centerContent{
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.topBox{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.topLeftBox{
+	border: 1px solid black;
+	background: rgb(197, 212, 231);
+	margin: 50px ;
+	height: 250px;
+	width: 450px;
+	padding: 25px 25px 7px 25px;
+}
+
+.topRightBox{
+	border: 1px solid black;
+	background: rgb(197, 212, 231);
+	margin: 50px ;
+	height: 250px;
+	width: 450px;
+	padding: 25px 25px 7px 25px;
+}
+
+.middleBox{
+	flex-direction: row;
+	display: flex;
+	
+}
+
+.middleLeftBox{
+	border: 1px solid black;
+	background: rgb(197, 212, 231);
+	padding-right: 30px;
+	margin: 30px 45px;
+	height: 250px;
+	width: 450px;
+	padding: 25px 25px 7px 25px;
+}
+
+.middleRightBox{
+	border: 1px solid black;
+	background: rgb(197, 212, 231);
+	margin: 30px 45px;
+	height: 250px;
+	width: 450px;
+	padding: 25px 25px 7px 25px;
+}
+
+.bottomBox{
+	flex-direction: row;
+	display: flex;
+
+}
+
+.bottomLeftBox{
+	border: 1px solid black;
+	background: rgb(197, 212, 231);
+	padding-right: 30px;
+	margin: 30px 45px;
+	height: 250px;
+	width: 450px;
+	padding: 25px 25px 7px 25px;
+}
+
+.bottomRightBox{
+	border: 1px solid black;
+	background: rgb(197, 212, 231);
+	margin: 30px 45px;
+	height: 250px;
+	width: 450px;
+	padding: 25px 25px 7px 25px;
+}
+
+.serviceButton{
+	font-size: 15px;
+	padding: 7px 30px 7px 30px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: .5em;
+	background: white;
+	margin-top: 20px;
+}
+
+.bottomArticle{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	max-height: 100%;
+	flex-wrap: wrap;
+}
+
+.bottomLeftArticle{
+	max-height: 100%;
+	/* border: 1px solid blue; */
+	display: flex;
+	flex-direction: column;
+	float: left;
+	width: 43%;
+	margin-right: 50px;
+
+}
+
+.bottomRightArticle{
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+}
+
+.footerNote{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px
 }
